@@ -9,6 +9,7 @@ body{
 .container{
     position: relative;
     border: 2px dashed blue;
+    height: 80px;
 }
 .item{
     width: 80px;
@@ -24,7 +25,7 @@ body{
     top: 10px;
     left: 10px;
     background-color: lightblue;
-    z-index: 1;
+    z-index: 10;
 }
 
 .el2{
@@ -32,4 +33,37 @@ body{
     top: 30px;
     left: 30px;
     background-color: lightcoral;
+}
+.el3{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: lightgoldenrodyellow;
+    z-index: 100;
+}
+.el4{
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    background-color: lightgreen;
+    z-index: 40;
+}
+.el5{
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    background-color: lightsalmon;
+    z-index: 30;
+}
+.el6{
+    position: absolute;
+    top: 110px;
+    left: 110px;
+    background-color: lightpink;
+    z-index: 200;
+}
+
+.group{
+    position: relative;
+    z-index: 20;
 }
