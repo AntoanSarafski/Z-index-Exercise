@@ -25,3 +25,10 @@ body{
     left: 10px;
     background-color: lightblue;
 }
+
+.el2{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: lightcoral;
+}
